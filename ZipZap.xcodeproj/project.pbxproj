@@ -634,7 +634,7 @@
 		D899CF77162C5E8400112F49 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					D87BA1F71B3D6DEA00ED7EB3 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -918,6 +918,7 @@
 					"$(OTHER_CFLAGS)",
 					"-fno-exceptions",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipZap;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -957,6 +958,7 @@
 					"$(OTHER_CFLAGS)",
 					"-fno-exceptions",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipZap;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -985,6 +987,7 @@
 				HEADER_SEARCH_PATHS = ../ZipZap;
 				INFOPLIST_FILE = "ZipZapTests/ZipZapTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = ZipZapTests;
 				SDKROOT = macosx;
 			};
@@ -1008,6 +1011,7 @@
 					"$(OTHER_CFLAGS)",
 					"-fno-exceptions",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipZap;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1032,6 +1036,7 @@
 					"$(OTHER_CFLAGS)",
 					"-fno-exceptions",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipZap;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1059,6 +1064,7 @@
 				CURRENT_PROJECT_VERSION = 8;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1074,6 +1080,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1156,6 +1163,7 @@
 				HEADER_SEARCH_PATHS = ../ZipZap;
 				INFOPLIST_FILE = "ZipZapTests/ZipZapTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = ZipZapTests;
 				SDKROOT = macosx;
 			};
@@ -1169,6 +1177,7 @@
 				HEADER_SEARCH_PATHS = ../ZipZap;
 				INFOPLIST_FILE = "ZipZapTests/ZipZapTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = ZipZapTests;
 				SDKROOT = macosx;
 			};
@@ -1222,6 +1231,7 @@
 					"$(OTHER_CFLAGS)",
 					"-fno-exceptions",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipZap;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1246,6 +1256,7 @@
 					"$(OTHER_CFLAGS)",
 					"-fno-exceptions",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipZap;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
